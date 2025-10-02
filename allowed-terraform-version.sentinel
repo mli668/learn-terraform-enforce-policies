@@ -5,7 +5,7 @@ import "version"
 
 main = rule {
   #version.new(tfplan.terraform_version).greater_than("1.1.0")
-  version.new(tfplan.terraform_version).greater_than("1.12.0")
+  version.new(tfplan.terraform_version).greater_than("1.11.0")
 }
 
  
