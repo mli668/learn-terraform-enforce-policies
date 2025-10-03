@@ -1,0 +1,56 @@
+id = "run-PRreX5NG9RLg5WcR"
+created_at = "2025-10-02T17:44:34.464Z"
+created_by = "gh-webhooks-policy-as-code-training-aY1JrZaTad"
+message = " fix lb_security_group"
+commit_sha = "5b6524211aa9376380b43282e8b3e04b58e0717c"
+speculative = false
+is_destroy = false
+refresh = true
+refresh_only = false
+replace_addrs = null
+target_addrs = null
+project = {
+	"id":   "prj-87zfFGk3tY6vUquJ",
+	"name": "policy-as-code",
+}
+
+variables = {
+	"AWS_ACCESS_KEY_ID": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"AWS_SECRET_ACCESS_KEY": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"instance_count": {
+		"category":  "terraform",
+		"sensitive": false,
+	},
+	"instance_type": {
+		"category":  "terraform",
+		"sensitive": false,
+	},
+}
+
+organization = {
+	"name": "policy-as-code-training",
+}
+
+workspace = {
+	"auto_apply":     true,
+	"created_at":     "2025-10-02T13:12:01.290Z",
+	"description":    null,
+	"execution_mode": "default",
+	"id":             "ws-fU7rdnf1WErxR4qd",
+	"name":           "policy-dev-amyli",
+	"tag_bindings":   [],
+	"tags":           [],
+	"vcs_repo": {
+		"branch":             "",
+		"display_identifier": "mli668/learn-terraform-variables",
+		"identifier":         "mli668/learn-terraform-variables",
+		"ingress_submodules": false,
+	},
+	"working_directory": null,
+}
